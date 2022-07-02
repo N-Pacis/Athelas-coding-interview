@@ -1,7 +1,7 @@
 import requests
 import csv
 
-symbols = ['AAPL','AMZN','NFLX','GOOGL']
+symbols = ['AAPL','AMZN','NFLX','GOOGL','META']
 header = ['stock_symbol','percentage_change','current_price','last_close_price']
 
 most_volatile_stock = {
